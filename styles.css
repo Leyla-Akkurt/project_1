@@ -53,18 +53,15 @@ button{
     justify-content: space-between;
     align-items: right;
     gap:1em;
-    padding:0.25em;
-
-   
+    
 }
 
 .cartoon-violence{
-    padding: 0px 0px 0.25em;
+    padding: 0px 0px 1em;
     border-bottom:1px solid rgb(72,72,72);
-
 }
 .game-purchase{
-    padding:0.25em 0 0;
+    padding:1em 0 0;
 }
 .main-head{
     font-size: 0.75rem;
