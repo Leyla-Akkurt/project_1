@@ -11,16 +11,19 @@
     background: linear-gradient(rgb(152, 125, 238), rgb(255, 249, 205)) 0% 0% / cover repeat;
     padding-left:1rem;
     padding-right:1rem; 
+    margin-bottom:1%;
 }
-#section{
+#first_part{
     display:flex;
     justify-content:space-between;
+    margin:5px;
     
 }
 .h1_learn-more{
     display:flex;
     align-items:left;
     gap:1rem;
+
 }
 
 h1,h2{
@@ -39,8 +42,8 @@ button{
     background-color: red;
     text-align:center;
     border:1px solid red;
-    border-radius:0.25rem;
-    font-size:1rem;
+    border-radius:0.5rem;
+    font-size:2rem;
     padding:0.25em;
     
 }
@@ -51,12 +54,14 @@ button{
     align-items: right;
     gap:1em;
     padding:0.25em;
+
    
 }
 
 .cartoon-violence{
     padding: 0px 0px 0.25em;
     border-bottom:1px solid rgb(72,72,72);
+
 }
 .game-purchase{
     padding:0.25em 0 0;
@@ -68,6 +73,10 @@ button{
 }
 #game-cartoon{
     text-decoration: none;
+    
+}
+#c{
+    font-size:36px;
 }
 hr{
     margin:15px;
@@ -78,4 +87,5 @@ hr{
     margin-left:auto;
     margin-right: auto;
     align-items: center;
+    margin-bottom:1%;
 }
