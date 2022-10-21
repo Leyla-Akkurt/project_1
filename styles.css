@@ -82,8 +82,10 @@ hr{
     display:flex;
     justify-content: space-between;
     overflow:scroll;
+   float: left;
    
 }
+
 .featured_image{
     display:block;
     border:5px solid rgb(244, 236, 236);
