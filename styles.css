@@ -22,6 +22,7 @@
 .h1_learn-more{
     display:flex;
     gap:1rem;
+    justify-content: center;
 }
 
 
@@ -43,7 +44,15 @@ button{
     border-radius:0.5rem;
     font-size:2rem;
     padding:0.25em;
+    transition: all .5s ease-in-out;
     
+    
+}
+button:hover{
+    cursor:pointer;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+
 }
 
 #e10_cartoon_game{
@@ -78,12 +87,23 @@ button{
 hr{
     margin:15px;
 }
+a{
+text-decoration: none;
+}
+a > h3:hover{
+    color:red;
+    cursor:pointer;
+}
 #images{
     display:flex;
     justify-content: space-between;
+    gap:1rem;
     overflow:scroll;
-   float: left;
-   
+    position: relative;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;   
+  
 }
 
 .featured_image{
@@ -97,13 +117,27 @@ hr{
    
 }
 .block_images{
-    display:flex;
     width:100%;
     height:60%;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    z-index: 1;
     
 }
+.block_images:hover{
+    transform: translate(0,-20px);
+    -webkit-transform: translate(0,-20px)
+}
 
-
+h3,h4{
+    text-align: center;
+    color:rgb(72,72,72);
+    }
+/*Tam yapamadın*/
+h4{
+    position:absolute;
+    bottom:0;
+}
 
 #nintento-store-image{
     display:block;
